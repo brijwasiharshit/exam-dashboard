@@ -24,7 +24,7 @@ const BottomNavigation2 = () => {
         />
       </Box>
       <Box sx={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-        <Link to = '/instruction1'>
+        <Link to = '/'>
         <Button
           sx={{ margin: '16px', border: '1px solid #a6a6a6', borderRadius: '0px', color: 'black' }}
         >

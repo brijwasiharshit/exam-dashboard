@@ -7,6 +7,7 @@ const BottomNavigation = () => {
   return (
     <Box sx = {{display: 'flex' ,alignItems : 'center', border: '1px solid #a6a6a6', height: '11%' , justifyContent : 'end'}}>
        <Link to = '/instruction2'><Button  sx = {{margin : 'auto 16px', border: '1px solid #a6a6a6' , borderRadius : '0px', color : 'black' }}>Next →</Button></Link>
+       <Link to = '/interruption'><Button  sx = {{margin : 'auto 16px', border: '1px solid #a6a6a6' , borderRadius : '0px', color : 'black' }}>Interruption</Button></Link>
     </Box>
   )
 }

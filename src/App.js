@@ -3,7 +3,7 @@ import Calculator from "./components/Calculator";
 import Instruction1 from "./components/Instruction1";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Instruction2 from "./components/Instruction2";
-
+import Interruption from "./components/Interruption";
 const appRouter = createBrowserRouter([
   {
     path: '/',
@@ -16,7 +16,11 @@ const appRouter = createBrowserRouter([
   {
     path: '/onscreen',
     element: <Calculator />
-  }
+  },
+  {
+    path : '/interruption',
+    element : <Interruption />
+  },
 ]);
 
 function App() {
