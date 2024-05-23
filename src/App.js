@@ -4,6 +4,7 @@ import Instruction1 from "./components/Instruction1";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Instruction2 from "./components/Instruction2";
 import Interruption from "./components/Interruption";
+import ScoreBoard from "./components/ScoreBoard";
 const appRouter = createBrowserRouter([
   {
     path: '/',
@@ -21,6 +22,10 @@ const appRouter = createBrowserRouter([
     path : '/interruption',
     element : <Interruption />
   },
+  {
+    path : '/score',
+    element : <ScoreBoard />
+  }
 ]);
 
 function App() {
