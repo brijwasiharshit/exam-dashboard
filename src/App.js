@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Instruction2 from "./components/Instruction2";
 import Interruption from "./components/Interruption";
 import ScoreBoard from "./components/ScoreBoard";
+import LeaderBoard from "./components/LeaderBoard";
 const appRouter = createBrowserRouter([
   {
     path: '/',
@@ -25,6 +26,10 @@ const appRouter = createBrowserRouter([
   {
     path : '/score',
     element : <ScoreBoard />
+  },
+  {
+    path : '/leaderboard',
+    element : <LeaderBoard />
   }
 ]);
 
